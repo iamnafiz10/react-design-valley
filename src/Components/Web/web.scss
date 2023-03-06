@@ -1,0 +1,37 @@
+#web-section {
+  margin-top: 120px;
+
+  .heading {
+    text-align: center;
+
+    h1 {
+      font-size: 60px;
+      font-weight: 800;
+    }
+  }
+
+  .box {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+
+    .content {
+      span {
+        font-size: 18px;
+        font-weight: 300;
+        color: gray;
+      }
+
+      h3 {
+        margin-top: 10px;
+        padding: 0 15px;
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .box:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  }
+}

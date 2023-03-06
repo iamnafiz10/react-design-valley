@@ -1,0 +1,66 @@
+#faq-section {
+  margin-top: 80px;
+
+  .heading {
+    h1 {
+      font-size: 60px;
+      font-weight: 800;
+    }
+  }
+
+  .left-content {
+    h5 {
+      font-size: 25px;
+      font-weight: 400;
+    }
+
+    h5::before {
+      content: "—";
+      margin-right: 12px;
+      color: #F6087E;
+    }
+
+    h4 {
+      margin-top: 15px;
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: 18px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #F6087E;
+      font-size: 17px;
+    }
+  }
+
+  .accordion-item {
+    border: 0;
+  }
+
+  .accordion-button {
+    font-weight: 500;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #F6087E;
+    background: none;
+  }
+
+  .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .accordion-button.collapsed::after {
+    background: url("../../assets/svg/plus.svg");
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background: url("../../assets/svg/minus.svg");
+  }
+}
