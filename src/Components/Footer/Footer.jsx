@@ -62,9 +62,9 @@ function Footer(props) {
 
                                     <div className="col-12 col-sm-4 col-md-4 mt-3">
                                         <h5>sag hi.</h5>
-                                        <p className="mt-4 mb-1">+880 0132 176 4096</p>
+                                        <p className="mt-4 mb-1">+880 01321764096</p>
                                         <a href="!#">
-                                            contact.roshannafiz@gmail.com
+                                            roshansaihamnafiz@gmail.com
                                         </a>
                                         <div className="footer-icons mt-4">
                                             <span>
@@ -105,7 +105,7 @@ function Footer(props) {
 
                                 <div
                                     className="footer-bottom d-block d-md-flex justify-content-between pt-4 mt-4 border-top">
-                                    <p>© Copyright 2023 All rights reserved. (Design By Roshan Nafiz)</p>
+                                    <p>© Copyright 2024 All rights reserved. (Design By Roshan Nafiz)</p>
                                     <p>
                                         <span>
                                             <a href="!#">Contact Us</a>
